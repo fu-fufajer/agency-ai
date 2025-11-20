@@ -68,7 +68,7 @@ Steps
 - Copy your Access Key
 - Paste it inside your contact form code in the ContactUs.jsx line 15:
 ```jsx
-formData.append("access_key", "7ed76798-ca2e-4865-8196-07a4c8a97807");
+formData.append("access_key", "<your_access_key>");
 ```
 Without this key, the form will not send emails.
 
