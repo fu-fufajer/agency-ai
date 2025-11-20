@@ -32,6 +32,8 @@ This project was created by following GreatStack’s tutorial:
 - Contact form  
 - Clean, reusable components 
 
+---
+
 ## How to use
 1. Make Sure You Have node and npm installed in your pc
 2. Clone the project
@@ -69,6 +71,8 @@ Steps
 const response = await fetch("https://api.web3forms.com/submit", {...});
 ```
 Without this key, the form will not send emails.
+
+---
 
 ## You're All Set!
 Now you can run, edit, and deploy the Agency AI Website.
