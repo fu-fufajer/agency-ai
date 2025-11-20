@@ -66,9 +66,9 @@ Steps
 - Go to https://web3forms.com
 - Create an account (free)
 - Copy your Access Key
-- Paste it inside your contact form code in the ContactUs.jsx line 18:
+- Paste it inside your contact form code in the ContactUs.jsx line 15:
 ```jsx
-const response = await fetch("https://api.web3forms.com/submit", {...});
+formData.append("access_key", "7ed76798-ca2e-4865-8196-07a4c8a97807");
 ```
 Without this key, the form will not send emails.
 
